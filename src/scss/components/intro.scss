@@ -8,10 +8,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 420px;
+    margin: 0 auto;
+    position: relative;
 
-    img {
+    &::after {
+      content: '';
       width: 100%;
       height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 323px;
+      opacity: 0.1;
+      background: var(--Primary-Primary, #33C3F8);
+      filter: blur(50px);
+      transform: scale(0.7);
+    }
+
+    img {
+      width: 280px;
+      height: 158px;
       object-fit: cover;
     }
   }
