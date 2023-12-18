@@ -11,6 +11,11 @@
     max-width: 420px;
     margin: 0 auto;
     position: relative;
+    padding-top: 10px;
+
+    &.hide {
+      display: none;
+    }
 
     &::after {
       content: '';
@@ -47,6 +52,10 @@
     }
 
     @media (max-width:375px) {
+      font-size: 120px;
+    }
+
+    @media (max-width:340px) {
       font-size: 100px;
     }
   }
