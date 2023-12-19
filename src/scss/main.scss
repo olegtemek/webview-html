@@ -14,6 +14,7 @@ img {
   user-select: none !important;
   /* Non-prefixed version, currently supported by Chrome, Opera and Edge */
   overflow-x: hidden !important;
+  pointer-events: none !important;
 }
 
 
@@ -67,7 +68,7 @@ html {
   background-color: var(--main);
   position: fixed;
   top: -286px;
-  left: 50%;
+  left: 40%;
   transform: translateX(-50%);
   filter: blur(85.8237533569336px);
   z-index: -1;
@@ -133,7 +134,7 @@ html {
 }
 
 br {
-  display: none;
+  display: block;
 
   // @media (min-width:460px) {
   //   display: none;

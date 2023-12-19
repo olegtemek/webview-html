@@ -467,9 +467,10 @@ textarea {
     @media (min-width: 768px) {
       .intro h1 {
         padding: 0 40px; } }
-    @media (max-width: 370px) {
+    @media (max-width: 340px) {
       .intro h1 {
-        font-size: 100px; } }
+        font-size: 100px;
+        line-height: 80px; } }
 
 .info {
   margin-top: 10px;
@@ -644,7 +645,8 @@ img {
   /* Internet Explorer/Edge */
   user-select: none !important;
   /* Non-prefixed version, currently supported by Chrome, Opera and Edge */
-  overflow-x: hidden !important; }
+  overflow-x: hidden !important;
+  pointer-events: none !important; }
 
 html {
   overflow-x: hidden;
@@ -684,7 +686,7 @@ html {
   background-color: var(--main);
   position: fixed;
   top: -286px;
-  left: 50%;
+  left: 40%;
   transform: translateX(-50%);
   filter: blur(85.82375px);
   z-index: -1; }
@@ -735,4 +737,4 @@ html {
     transition: 0.5s; }
 
 br {
-  display: none; }
+  display: block; }
