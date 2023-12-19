@@ -24,7 +24,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      border-radius: 323px;
+      border-radius: 50%;
       opacity: 0.1;
       background: var(--Primary-Primary, #33C3F8);
       filter: blur(50px);
@@ -39,7 +39,7 @@
   }
 
   h1 {
-    color: #171826;
+    color: #131422;
     font-size: 120px;
     font-style: normal;
     font-weight: 700;
@@ -51,11 +51,7 @@
       padding: 0 40px;
     }
 
-    @media (max-width:375px) {
-      font-size: 120px;
-    }
-
-    @media (max-width:340px) {
+    @media (max-width:370px) {
       font-size: 100px;
     }
   }
