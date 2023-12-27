@@ -37,7 +37,7 @@ html {
   width: 100%;
   position: relative;
   overflow: hidden;
-  padding: 0px 12px 44px 12px;
+  padding: 0px 12px 20px 12px;
   box-sizing: border-box;
   margin: 0 auto;
   position: relative;
@@ -89,13 +89,14 @@ html {
 }
 
 .lottie {
-  height: 374px;
+  height: 490px;
   display: flex;
   align-items: center;
   justify-content: center;
   max-width: 420px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 40px;
 
   &.hide {
     transform: scale(1.1);

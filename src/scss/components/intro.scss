@@ -12,6 +12,7 @@
     margin: 0 auto;
     position: relative;
     padding-top: 10px;
+    margin-bottom: 80px;
 
     &.hide {
       display: none;
@@ -22,7 +23,7 @@
       width: 80%;
       height: 80%;
       position: absolute;
-      top: 50%;
+      top: 60%;
       left: 50%;
       border-radius: 50%;
       opacity: 0.1;
@@ -36,6 +37,7 @@
       width: 280px;
       height: 158px;
       object-fit: cover;
+      padding-top: 140px;
 
       &.set {
         height: 160px;
