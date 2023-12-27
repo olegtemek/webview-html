@@ -113,6 +113,7 @@ html {
     width: 80%;
     height: 80%;
     position: absolute;
+    padding-top: 40px;
     top: 50%;
     left: 50%;
     border-radius: 50%;
@@ -123,6 +124,7 @@ html {
   }
 
   img {
+    padding-top: 40px;
     width: 280px;
     height: 158px;
     object-fit: cover;
